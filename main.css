@@ -1,3 +1,11 @@
+i{
+ text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -35,11 +43,12 @@
 
 .main {
     width: 100%;
+    display: flex;
 
 }
 
 .main-foto {
-    width: 50%;
+    width: 38%;
     margin-left: 9.3rem;
     margin-top: -3rem;
 
@@ -48,4 +57,7 @@
 .main-foto img {
     width: 500px;
     height: 800px;
+}
+.main-texs{
+padding-top: 3rem;
 }
